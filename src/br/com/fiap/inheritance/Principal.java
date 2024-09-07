@@ -9,16 +9,11 @@ public class Principal {
 
     public static void main(String[] args) {
 
-        People p1 = new People();
-
-        p1.setName("Victor");
-        p1.setBirthDate(LocalDate.of(1997, 6, 10));
-
-
         Customer c1 = new Customer();
-
         c1.setName("Bob");
-        c1.setBirthDate(LocalDate.of(1980, 10, 25));
+        c1.setEmail("bobvance@vancerefrigerators.com");
+        c1.setPhone("+5511975475677");
+        c1.setBirthDate(LocalDate.of(1970, 10, 25));
 
     }
 
